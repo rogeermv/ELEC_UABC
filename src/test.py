@@ -24,5 +24,5 @@ async def test_7seg(dut):
         await ClockCycles(dut.clk, 1000)
 
         
-        assert dut.uio_oe == 0XFF
+        assert dut.uio_oe == 0xFF
 
